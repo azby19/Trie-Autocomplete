@@ -1,0 +1,25 @@
+/* src/App.css */
+.autocomplete-container {
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.suggestions-list {
+  position: absolute;
+  width: 100%;
+  z-index: 1000;
+}
+
+.suggestions-list .list-group-item {
+  cursor: pointer;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
